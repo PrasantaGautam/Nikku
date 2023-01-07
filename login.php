@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "redhat", "freefire");
+$conn = mysqli_connect("host", "db_user", "db_password", "freefire");
 if($conn === false){
     echo "died connection";
     die("ERROR: Could not connect. "
